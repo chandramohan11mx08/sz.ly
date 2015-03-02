@@ -1,0 +1,20 @@
+<title>Sz.ly - Shorten urls</title>
+<link rel="stylesheet" href="/stylesheets/home.css">
+<div class="header">Header Content</div>
+<div class="home_container">
+    <div class="main_content">
+        <h1>
+            Welcome to Szly {{param}}
+        </h1>
+
+        <form name="shorten_url" id="shorten_url">
+            <input type="text" placeholder="www.stayzilla.com" autocomplete="off"
+                   autosuggest="off" autocorrect="off" name="url" id="input_url">
+            <input type="button" id="shortenUrl" value="Shorten">
+        </form>
+        <div id="result_container"></div>
+    </div>
+</div>
+<div class="footer">Footer Content</div>
+<script type="text/javascript" src="javascripts/vendors/zepto.min.js"></script>
+<script type="text/javascript" src="javascripts/home.js"></script>
