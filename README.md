@@ -1,0 +1,2 @@
+# sz.ly
+Shorten URL
