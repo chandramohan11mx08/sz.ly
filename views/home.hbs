@@ -1,20 +1,33 @@
 <title>Sz.ly - Shorten urls</title>
 <link rel="stylesheet" href="/stylesheets/home.css">
-<div class="header">Header Content</div>
+<div class="background-image"></div>
+<div class="main_container" >
+<div class="header">
+    <ul class="navigation">
+        <li class="sign_in">Sign in</li>
+        <li class="about_us">About</li>
+    </ul>
+</div>
 <div class="home_container">
     <div class="main_content">
         <h1>
-            Welcome to Szly {{param}}
+            <span class="main_text">Welcome to Szly {{param}} </span>
         </h1>
 
         <form name="shorten_url" id="shorten_url">
-            <input type="text" placeholder="www.stayzilla.com" autocomplete="off"
+            <input class="main_textbox" type="text" placeholder="www.stayzilla.com" autocomplete="off"
                    autosuggest="off" autocorrect="off" name="url" id="input_url">
-            <input type="button" id="shortenUrl" value="Shorten">
+            <input class="main_button" type="button" id="shortenUrl" value="Shorten">
         </form>
         <div id="result_container"></div>
     </div>
 </div>
-<div class="footer">Footer Content</div>
+<div class="footer">
+    <ul class="navigation">
+        <li class="contact_us">Contact us</li>
+        <li class="feedback">Post your feedback</li>
+    </ul>
+</div>
+</div>
 <script type="text/javascript" src="javascripts/vendors/zepto.min.js"></script>
 <script type="text/javascript" src="javascripts/home.js"></script>

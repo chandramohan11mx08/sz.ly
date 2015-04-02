@@ -1,6 +1,23 @@
+html {
+    background: url("/images/background.jpg"); no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.background-image{
+    -webkit-filter: blur(8px) grayscale(0.6);
+    z-index: -1;
+}
+
+.main_text{
+    color: #2996FF;
 }
 
 a {
@@ -15,4 +32,54 @@ a {
 .main_content{
     margin-left: 40%;
     padding-top: 15%;
+}
+
+.header{
+    float: right;
+    color: #99FF99;
+}
+
+.footer{
+    float: right;
+    color: #99FF99;
+}
+
+.navigation {
+    margin:0;
+    padding:0;
+}
+
+.navigation li {
+    display:inline;
+    padding:15;
+    margin:0;
+}
+
+.navigation li:hover{
+    text-decoration: underline;
+
+}
+
+.main_textbox {
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    height: 25px;
+    padding: 5px 10px 5px 5px;
+    font-size: 15px;
+    /*border-radius*/
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.02) 0%, rgba(255, 255, 255, 0.02) 50%);
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.02) 0%, rgba(255, 255, 255, 0.02) 50%);
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0.02) 0%, rgba(255, 255, 255, 0.02) 50%);
+    width: 200px
+}
+.result_container a{
+    color: #99FF99;
+}
+.main_textbox:hover{
+    background: #99FF99;
+}
+.main_button{
+
 }
