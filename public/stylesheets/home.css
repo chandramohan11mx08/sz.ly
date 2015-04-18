@@ -68,6 +68,11 @@ a {
     border-style: solid;
     border:1px solid #8bcf54;
 }
+
+input:focus{
+    outline: 0;
+}
+
 .main_textbox {
     border:1px solid #8bcf54;
     -webkit-border-radius: 3px;
